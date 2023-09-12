@@ -1,0 +1,18 @@
+//GET LIST OF ALL MOVIES
+
+GET http://localhost:3001/movies/
+
+###
+
+//create new movie in movie table
+
+POST http://localhost:3001/movies/
+Content-Type: application/json
+
+{
+    "directorId" : 6,
+    "movieName" : "Jurassic Park",
+    "leadActor" : "Jeff Goldblum",
+    
+
+};
